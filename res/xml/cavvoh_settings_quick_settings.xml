@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 Evolution X
+     Copyright (C) 2019-2024 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 
@@ -30,14 +30,14 @@
             android:defaultValue="0" />
 
         <!-- Hide label -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:title="@string/quick_settings_tile_label_hide_title"
             android:summary="@string/quick_settings_tile_label_hide_summary"
             android:defaultValue="false" />
 
         <!-- Label text size -->
-        <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+        <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_tile_label_size"
             android:title="@string/quick_settings_tile_label_size_title"
             android:max="15"
@@ -47,7 +47,7 @@
             android:defaultValue="14" />
 
         <!-- Vertical layout -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_vertical_layout"
             android:title="@string/quick_settings_tile_layout_title"
             android:summary="@string/quick_settings_tile_layout_summary"
@@ -57,10 +57,10 @@
             android:key="qs_layout_columns_rows"
             android:title="@string/quick_settings_layout_columns_rows_title"
             android:summary="@string/quick_settings_layout_columns_rows_summary"
-            android:fragment="org.evolution.settings.fragments.quicksettings.LayoutSettings" />
+            android:fragment="org.cavvoh.settings.fragments.quicksettings.LayoutSettings" />
 
         <!-- Battery styles -->
-        <org.evolution.settings.preferences.SystemSettingListPreference
+        <org.cavvoh.settings.preferences.SystemSettingListPreference
             android:key="qs_battery_style"
             android:title="@string/status_bar_battery_style_title"
             android:entries="@array/qs_battery_style_entries"
@@ -68,7 +68,7 @@
             android:defaultValue="-1" />
 
         <!-- Battery percent -->
-        <org.evolution.settings.preferences.SystemSettingListPreference
+        <org.cavvoh.settings.preferences.SystemSettingListPreference
             android:key="qs_show_battery_percent"
             android:title="@string/status_bar_battery_percent_title"
             android:entries="@array/status_bar_battery_percent_entries"
@@ -99,14 +99,14 @@
             android:defaultValue="true" />
 
         <!-- Data usage -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_show_data_usage"
             android:title="@string/quick_settings_data_usage_title"
             android:summary="@string/quick_settings_data_usage_summary"
             android:defaultValue="false" />
 
         <!-- Floating clear all -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_material_dismiss"
             android:title="@string/quick_settings_floating_clear_all_title"
             android:summary="@string/quick_settings_floating_clear_all_summary"
@@ -118,7 +118,7 @@
         android:title="@string/quick_settings_animations_category">
 
         <!-- Tiles animation style -->
-        <org.evolution.settings.preferences.SystemSettingListPreference
+        <org.cavvoh.settings.preferences.SystemSettingListPreference
             android:key="qs_tile_animation_style"
             android:title="@string/quick_settings_tile_animation_style_title"
             android:entries="@array/quick_settings_tile_animation_style_entries"
@@ -126,7 +126,7 @@
             android:defaultValue="0" />
 
         <!-- Animation duration -->
-        <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+        <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_tile_animation_duration"
             android:title="@string/quick_settings_tile_animation_duration_title"
             android:defaultValue="1"
@@ -136,7 +136,7 @@
             android:min="1" />
 
         <!-- Animation interpolator -->
-        <org.evolution.settings.preferences.SystemSettingListPreference
+        <org.cavvoh.settings.preferences.SystemSettingListPreference
             android:key="qs_tile_animation_interpolator"
             android:title="@string/quick_settings_tile_animation_interpolator_title"
             android:entries="@array/quick_settings_tile_animation_interpolator_entries"
@@ -149,14 +149,14 @@
         android:title="@string/quick_settings_lock_screen_category">
 
         <!-- Hide on secure lock screen -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
             android:title="@string/quick_settings_secure_lock_screen_title"
             android:summary="@string/quick_settings_secure_lock_screen_summary"
             android:defaultValue="false" />
 
         <!-- Secure QS tiles require unlock -->
-        <org.evolution.settings.preferences.SecureSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SecureSettingSwitchPreference
             android:key="qstile_requires_unlocking"
             android:title="@string/quick_settings_require_unlock_title"
             android:summary="@string/quick_settings_require_unlock_summary"
@@ -168,7 +168,7 @@
         android:title="@string/quick_settings_miscellaneous_category">
 
         <!-- QS Bluetooth Dialog -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_bt_show_dialog"
             android:title="@string/quick_settings_bluetooth_show_dialog_title"
             android:summary="@string/quick_settings_bluetooth_show_dialog_summary"

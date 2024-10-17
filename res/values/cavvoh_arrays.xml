@@ -125,8 +125,8 @@
 
     <!-- Themes/Boot animation -->
    <string-array name="themes_boot_animation_entries">
-        <item>Evolution X</item>
-        <item>Evolution X (Reveal)</item>
+        <item>Cavvoh OS</item>
+        <item>Cavvoh OS (Reveal)</item>
         <item>AOKP</item>
         <item>CyanogenMod</item>
         <item>ctOS</item>

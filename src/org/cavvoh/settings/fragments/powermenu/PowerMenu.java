@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 The Evolution X Project
+ * Copyright (C) 2019-2024 The Cavvoh OS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 Evolution X
+     Copyright (C) 2019-2024 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 
@@ -15,7 +15,7 @@
         android:title="@string/themes_title"
         android:summary="@string/themes_summary"
         android:icon="@drawable/ic_themes"
-        android:fragment="org.evolution.settings.fragments.themes.Themes" />
+        android:fragment="org.cavvoh.settings.fragments.themes.Themes" />
 
     <!-- Lock screen -->
     <Preference
@@ -23,7 +23,7 @@
         android:title="@string/lock_screen_title"
         android:summary="@string/lock_screen_summary"
         android:icon="@drawable/ic_lock_screen"
-        android:fragment="org.evolution.settings.fragments.lockscreen.LockScreen" />
+        android:fragment="org.cavvoh.settings.fragments.lockscreen.LockScreen" />
 
     <!-- Status bar -->
     <Preference
@@ -31,7 +31,7 @@
         android:title="@string/status_bar_title"
         android:summary="@string/status_bar_summary"
         android:icon="@drawable/ic_status_bar"
-        android:fragment="org.evolution.settings.fragments.statusbar.StatusBar" />
+        android:fragment="org.cavvoh.settings.fragments.statusbar.StatusBar" />
 
     <!-- Quick settings -->
     <Preference
@@ -39,7 +39,7 @@
         android:title="@string/quick_settings_title"
         android:summary="@string/quick_settings_summary"
         android:icon="@drawable/ic_quick_settings"
-        android:fragment="org.evolution.settings.fragments.quicksettings.QuickSettings" />
+        android:fragment="org.cavvoh.settings.fragments.quicksettings.QuickSettings" />
 
     <!-- Notifications -->
     <Preference
@@ -47,7 +47,7 @@
         android:title="@string/notifications_title"
         android:summary="@string/notifications_summary"
         android:icon="@drawable/ic_notifications"
-        android:fragment="org.evolution.settings.fragments.notifications.Notifications" />
+        android:fragment="org.cavvoh.settings.fragments.notifications.Notifications" />
 
     <!-- Gestures -->
     <Preference
@@ -55,7 +55,7 @@
         android:title="@string/gestures_title"
         android:summary="@string/gestures_summary"
         android:icon="@drawable/ic_settings_gestures"
-        android:fragment="org.evolution.settings.fragments.gestures.Gestures" />
+        android:fragment="org.cavvoh.settings.fragments.gestures.Gestures" />
 
     <!-- Power menu -->
     <Preference
@@ -63,7 +63,7 @@
         android:title="@string/power_menu_title"
         android:summary="@string/power_menu_summary"
         android:icon="@drawable/ic_power_menu"
-        android:fragment="org.evolution.settings.fragments.powermenu.PowerMenu" />
+        android:fragment="org.cavvoh.settings.fragments.powermenu.PowerMenu" />
 
     <!-- Buttons -->
     <Preference
@@ -71,7 +71,7 @@
         android:title="@string/buttons_title"
         android:summary="@string/buttons_summary"
         android:icon="@drawable/ic_buttons"
-        android:fragment="org.evolution.settings.fragments.buttons.Buttons" />
+        android:fragment="org.cavvoh.settings.fragments.buttons.Buttons" />
 
     <!-- Miscellaneous -->
     <Preference
@@ -79,7 +79,7 @@
         android:title="@string/miscellaneous_title"
         android:summary="@string/miscellaneous_summary"
         android:icon="@drawable/ic_miscellaneous"
-        android:fragment="org.evolution.settings.fragments.miscellaneous.Miscellaneous" />
+        android:fragment="org.cavvoh.settings.fragments.miscellaneous.Miscellaneous" />
 
     <!-- About -->
     <Preference
@@ -87,5 +87,5 @@
         android:title="@string/about_title"
         android:summary="@string/about_summary"
         android:icon="@drawable/ic_about"
-        android:fragment="org.evolution.settings.fragments.about.About" />
+        android:fragment="org.cavvoh.settings.fragments.about.About" />
 </PreferenceScreen>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 Evolution X
+     Copyright (C) 2019-2024 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 
@@ -24,11 +24,11 @@
             android:key="island_notification"
             android:title="@string/notifications_island_notification_title"
             android:summary="@string/notifications_island_notification_summary"
-            android:fragment="org.evolution.settings.fragments.notifications.IslandSettings"
+            android:fragment="org.cavvoh.settings.fragments.notifications.IslandSettings"
             android:dependency="heads_up_notifications_enabled" />
 
         <!-- Less boring heads up -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="less_boring_heads_up"
             android:title="@string/notifications_less_boring_heads_up_title"
             android:summary="@string/notifications_less_boring_heads_up_summary"
@@ -45,10 +45,10 @@
             android:key="edge_light_settings"
             android:title="@string/notifications_edge_light_title"
             android:summary="@string/notifications_edge_light_summary"
-            android:fragment="org.evolution.settings.fragments.notifications.EdgeLightSettings" />
+            android:fragment="org.cavvoh.settings.fragments.notifications.EdgeLightSettings" />
 
         <!-- Kill app button -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_guts_kill_app_button"
             android:title="@string/notifications_kill_app_button_title"
             android:summary="@string/notifications_kill_app_button_summary"
@@ -60,7 +60,7 @@
         android:title="@string/notifications_sounds_vibration_category">
 
         <!-- Alert while display on -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_sound_vib_screen_on"
             android:title="@string/notifications_alert_display_on_title"
             android:summary="@string/notifications_alert_display_on_summary"

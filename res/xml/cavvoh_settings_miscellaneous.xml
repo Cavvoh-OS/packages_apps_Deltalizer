@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 Evolution X
+     Copyright (C) 2019-2024 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 
@@ -18,7 +18,7 @@
             android:key="spoofing"
             android:title="@string/spoofing_title"
             android:summary="@string/spoofing_summary"
-            android:fragment="org.evolution.settings.fragments.miscellaneous.Spoofing" />
+            android:fragment="org.cavvoh.settings.fragments.miscellaneous.Spoofing" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -41,42 +41,42 @@
             settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 
         <!-- No storage restrict -->
-        <org.evolution.settings.preferences.GlobalSettingSwitchPreference
+        <org.cavvoh.settings.preferences.GlobalSettingSwitchPreference
             android:key="no_storage_restrict"
             android:title="@string/no_storage_restrict_title"
             android:summary="@string/no_storage_restrict_summary"
             android:defaultValue="false" />
 
         <!-- Block wallpaper dimming -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="block_wallpaper_dimming"
             android:title="@string/miscellaneous_block_wallpaper_dimming_title"
             android:summary="@string/miscellaneous_block_wallpaper_dimming_summary"
             android:defaultValue="false" />
 
         <!-- Unlimit screenrecord -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
             android:key="unlimit_screenrecord"
             android:title="@string/miscellaneous_unlimit_screenrecord_title"
             android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
             android:defaultValue="false" />
 
         <!-- Hide screen capture status -->
-        <org.evolution.settings.preferences.GlobalSettingSwitchPreference
+        <org.cavvoh.settings.preferences.GlobalSettingSwitchPreference
             android:key="hide_screen_capture_status"
             android:title="@string/hide_screen_capture_status_title"
             android:summary="@string/hide_screen_capture_status_summary"
             android:defaultValue="false" />
 
         <!-- Allow application downgrade -->
-        <org.evolution.settings.preferences.GlobalSettingSwitchPreference
+        <org.cavvoh.settings.preferences.GlobalSettingSwitchPreference
             android:key="pm_downgrade_allowed"
             android:title="@string/miscellaneous_app_downgrade_title"
             android:summary="@string/miscellaneous_app_downgrade_summary"
             android:defaultValue="false" />
 
         <!-- Ignore window secure flags -->
-        <org.evolution.settings.preferences.GlobalSettingSwitchPreference
+        <org.cavvoh.settings.preferences.GlobalSettingSwitchPreference
             android:key="window_ignore_secure"
             android:title="@string/miscellaneous_ignore_window_secure_title"
             android:summary="@string/miscellaneous_ignore_window_secure_summary"

@@ -9,13 +9,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_island_notification_title">
 
-    <org.evolution.settings.preferences.SystemSettingSwitchPreference
+    <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
         android:key="island_notification"
         android:title="@string/notifications_island_notification_title"
         android:summary="@string/notifications_island_notification_summary"
         android:defaultValue="false" />
 
-    <org.evolution.settings.preferences.SystemSettingSwitchPreference
+    <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
         android:key="island_notification_now_playing"
         android:title="@string/island_notification_now_playing_title"
         android:summary="@string/island_notification_now_playing_summary"

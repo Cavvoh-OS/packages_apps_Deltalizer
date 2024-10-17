@@ -19,7 +19,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quick_settings_layout_columns_rows_title">
 
-    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+    <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_layout_columns"
         android:title="@string/quick_settings_columns_portrait_title"
         android:max="5"
@@ -27,7 +27,7 @@
         settings:interval="1"
         android:defaultValue="2" />
 
-    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+    <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_layout_columns_landscape"
         android:title="@string/quick_settings_columns_landscape_title"
         android:max="5"
@@ -35,7 +35,7 @@
         settings:interval="1"
         android:defaultValue="4" />
 
-    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+    <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_layout_rows"
         android:title="@string/quick_settings_rows_portrait_title"
         android:max="5"
@@ -43,7 +43,7 @@
         settings:interval="1"
         android:defaultValue="4" />
 
-    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+    <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_layout_rows_landscape"
         android:title="@string/quick_settings_rows_landscape_title"
         android:max="3"
@@ -51,7 +51,7 @@
         settings:interval="1"
         android:defaultValue="2" />
 
-    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+    <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
         android:key="qqs_layout_rows"
         android:title="@string/quick_settings_qqs_rows_portrait_title"
         android:max="3"
@@ -59,7 +59,7 @@
         settings:interval="1"
         android:defaultValue="2" />
 
-    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+    <org.cavvoh.settings.preferences.SystemSettingSeekBarPreference
         android:key="qqs_layout_rows_landscape"
         android:title="@string/quick_settings_qqs_rows_landscape_title"
         android:max="3"

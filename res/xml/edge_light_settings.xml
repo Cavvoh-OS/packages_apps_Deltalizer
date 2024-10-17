@@ -18,19 +18,19 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_edge_light_title">
 
-    <org.evolution.settings.preferences.SystemSettingSwitchPreference
+    <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
         android:key="edge_light_enabled"
         android:title="@string/notifications_edge_light_enable_title"
         android:defaultValue="false" />
 
-    <org.evolution.settings.preferences.SystemSettingSwitchPreference
+    <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
         android:key="edge_light_always_trigger_on_pulse"
         android:title="@string/notifications_edge_light_always_trigger_on_pulse_title"
         android:summary="@string/notifications_edge_light_always_trigger_on_pulse_summary"
         android:defaultValue="false"
         android:dependency="edge_light_enabled" />
 
-    <org.evolution.settings.preferences.SystemSettingSwitchPreference
+    <org.cavvoh.settings.preferences.SystemSettingSwitchPreference
         android:key="edge_light_repeat_animation"
         android:title="@string/notifications_edge_light_repeat_animation_title"
         android:summaryOn="@string/notifications_edge_light_repeat_animation_summary_on"
@@ -38,7 +38,7 @@
         android:defaultValue="false"
         android:dependency="edge_light_enabled" />
 
-    <org.evolution.settings.preferences.SystemSettingListPreference
+    <org.cavvoh.settings.preferences.SystemSettingListPreference
         android:key="edge_light_color_mode"
         android:title="@string/notifications_edge_light_color_mode_title"
         android:entries="@array/notifications_edge_light_color_mode_entries"
@@ -47,7 +47,7 @@
         android:defaultValue="0"
         android:dependency="edge_light_enabled" />
 
-    <org.evolution.settings.preferences.colorpicker.SystemSettingColorPickerPreference
+    <org.cavvoh.settings.preferences.colorpicker.SystemSettingColorPickerPreference
         android:key="edge_light_custom_color"
         android:title="@string/custom_color"
         android:defaultValue="#FFFFFF"

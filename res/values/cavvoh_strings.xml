@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 Evolution X
+     Copyright (C) 2019-2024 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -29,7 +29,7 @@
     <string name="miscellaneous_title">Miscellaneous</string>
     <string name="miscellaneous_summary">Developer options, spoofing</string>
     <string name="about_title">About</string>
-    <string name="about_summary">About Evolution X</string>
+    <string name="about_summary">About Cavvoh OS</string>
 
     <!-- Themes -->
     <string name="themes_monet_category">Monet</string>
@@ -212,7 +212,7 @@
     <string name="status_bar_logo_position_left">Left side</string>
     <string name="status_bar_logo_position_right">Right side</string>
     <string name="status_bar_logo_style_title">Logo style</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">Cavvoh OS</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>
@@ -510,7 +510,7 @@
     <string name="navbar_invert_layout_summary">Inverts the layout of the navigation bar and other items, such as the IME switcher</string>
 
     <!-- About -->
-    <string name="about_info">Evolution X aims to provide users with a Pixel-like feel at first glance, with additional features at your disposal</string>
+    <string name="about_info">Cavvoh OS aims to provide users with a Pixel-like feel at first glance, with additional features at your disposal</string>
     <string name="about_website_title">Website</string>
     <string name="about_website_summary">Feel free to drop by our website</string>
     <string name="about_twitter_title" translatable="false">Twitter</string>
